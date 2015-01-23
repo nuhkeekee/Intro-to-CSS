@@ -6,3 +6,32 @@ html{
     */
   color: #fff;
 }
+
+h1 {
+  color: grey;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 1;
+  text-shadow: 2px -5px 10px black;
+  font-family: 'Indie Flower', cursive;
+  /* horizontal offset
+    vertical offset
+    blur radius/size
+    color */
+}
+
+p {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center; /* left, center, right, justify */
+  font-family: Arial, sans-serif;
+
+}
+
+ol {
+  list-style-type: none;
+  /* NONE
+  roman numerals, roman alpha, circles, decimals, upper alpha
+  square, upper numerals, greek, disk */
+padding: 0;
+}
